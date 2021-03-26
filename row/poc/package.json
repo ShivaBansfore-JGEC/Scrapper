@@ -5,6 +5,7 @@
   "main": "request.js",
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
+    "pdfkit": "^0.11.0",
     "request": "^2.88.2"
   },
   "devDependencies": {},

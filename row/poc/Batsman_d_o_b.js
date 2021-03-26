@@ -16,7 +16,7 @@ function extractData(html) {
     let batsManTable = selTool(".table.batsman");
 
     for(let i=0;i<batsManTable.length;i++){
-        let batsmanNameElem=selTool(batsManTable[i]).find("tbody tr .batsman-cell a")
+        let batsmanNameElem=selTool(batsManTable[i]).find("tbody tr .batsman-cell")
         for(let j=0;j<batsmanNameElem.length;j++){
             let link=selTool(batsmanNameElem[j]).attr("href");
             let name=selTool(batsmanNameElem[j]).text();
